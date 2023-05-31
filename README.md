@@ -81,7 +81,7 @@ for (char,frequency) in freq:
     print(' %-4r |%12s' % (char,huffmanCode[char]))
 ~~~
 ## Output:
-![Output.jpg](huffman.png)
+![Output.jpg](Output.jpg)
 
 
 
