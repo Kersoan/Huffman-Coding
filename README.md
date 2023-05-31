@@ -1,4 +1,4 @@
-# Implementation-of-Huffman-Coding-Algorithm
+# EX-12--Implementation-of-Huffman-Coding-Algorithm
 ## Aim:
 To implement Huffman coding to compress the data using Python.
 
@@ -18,12 +18,12 @@ Calculate frequency of occurence.
 Print the characters and its Huffman code.
 ## Program:
 ~~~
-Developed by : Kadin Samson L
-Registration Number : 212221230044
+Developed by : Kersoan P
+Registration Number : 212221230050
 ~~~
 ### Get the input String:
 ~~~
-string=input("Kadin Samson L 212221230044")
+string=input("Kersoan 212221230050")
 class NodeTree(object):
   def __init__(self,left=None,right=None):
     self.left=left
@@ -81,7 +81,7 @@ for (char,frequency) in freq:
     print(' %-4r |%12s' % (char,huffmanCode[char]))
 ~~~
 ## Output:
-![huffman out](huffman.png)
+![Output.jpg](huffman.png)
 
 
 
